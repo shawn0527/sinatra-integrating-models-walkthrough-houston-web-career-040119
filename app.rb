@@ -1,7 +1,6 @@
 require_relative 'config/environment'
 require_relative 'models/text_analyzer.rb'
 
-set :views, './views'
 
 class App < Sinatra::Base
   get '/' do
